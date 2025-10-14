@@ -50,7 +50,7 @@ RAG_Hackathon_Repo/
 ---
 ## 🧩 Workflow Diagram
 
-<img src="/Untitled%20diagram-2025-10-14-132644.png" alt = "Workflow diagram" width="300"/>
+<img src="/Workflow Diagram - Architecture.png" width="300"/>
 
 ---
 
