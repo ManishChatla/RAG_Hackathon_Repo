@@ -95,3 +95,29 @@ joblib.dump(model, MODEL_FILE)
 joblib.dump(vectorizer, VECTORIZER_FILE)
 
 print("\n✅ Retraining complete. Model updated and saved.")
+
+Use a Large Language Model (LLM) to auto-label a small portion of the dataset → then train a traditional ML model (like Logistic Regression, SVM, or even BERT) on those labels → and finally apply that ML model on the entire dataset (3K+ records) efficiently.
+
+Full LLM → ML → Auto-Retrain Pipeline
+
+🔹 Stage 1: Initial LLM Labeling
+
+Use GPT (or another LLM) to label the first few hundred complaint–response pairs (as shown earlier).
+
+🔹 Stage 2: Train ML Model on LLM Labels
+
+Train a model (e.g., Logistic Regression, SVM, or BERT) to learn sentiment scoring.
+
+🔹 Stage 3: Predict Remaining Data
+
+Use the model to infer sentiment for unlabeled data.
+
+🔹 Stage 4: Continuous Improvement
+
+When you add new records (or periodically every week/month):
+	1.	Select a small random batch of new unlabeled data.
+	2.	Label them using the LLM.
+	3.	Merge with existing training data.
+	4.	Retrain the ML model automatically.
+
+
