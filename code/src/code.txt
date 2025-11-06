@@ -1,4 +1,4 @@
-Problem Statement
+(Problem Statement
 
 “Inconsistent complaint insights across business lines hinder proactive compliance and resolution.”
 
@@ -175,6 +175,13 @@ Slide 14: Key Takeaways
 	•	Hybrid AI pipeline delivers accuracy + efficiency at scale
 	•	Sentiment and category insights help detect compliance risks early
 	•	The system establishes a foundation for AI-powered customer intelligence
+
+Our solution delivers an intelligent and scalable system for complaint categorization and sentiment analysis, enabling proactive compliance and improved customer experience.
+By combining LLM-driven insights with machine learning scalability, we effectively classify complaint themes, derive sentiment-based resolution scores, and identify high-risk cases with precision.
+The hybrid approach ensures adaptability — using LLMs for labeling and ML models for large-scale inference — achieving high accuracy and efficiency.
+Through continuous retraining on new data, the system remains current, evolving alongside customer behavior and emerging issues.
+This end-to-end framework transforms raw feedback into actionable intelligence, empowering business teams to make faster, data-backed decisions and enhance service quality.
+
 
 ⸻
 
